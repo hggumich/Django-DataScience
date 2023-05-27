@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    from performance
+{% endblock title %}
+
+{% block content %}
+    <h1>Testing</h1>
+    {{ products | safe }}
+    <hr>
+    {{ purchases | safe }}
+    <hr>
+    {{ df | safe}}
+{% endblock content %}
